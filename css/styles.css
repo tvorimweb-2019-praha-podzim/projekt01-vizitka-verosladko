@@ -1,13 +1,45 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 body {
     background: #F9C784 url('../img/veronika.png') no-repeat;
     font: 2em 'PT Sans', sans-serif;
     text-align: right;
     color: white;
     margin: 5%;
+    line-height: 1.5;
+    padding: 3em 1em;
+}
+
+.menu {
+    width: 50%;
+    position: fixed;
+    right: 1em;
+    top: 0em;
+}
+.nav {
+    text-align: right;
+    margin: 0;
+    padding: 1em;
+    background-color: #4e598c;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+
+.nav a  {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
 }
 
 .header {
-    height: 3em;
+    height: 2em;
 }
 
 h1 {
@@ -20,7 +52,7 @@ h1 {
     font-size: 1em;
     color: #4e598c;
 }
-
+        
 p {
     color: white;
     font-size: 0.4em;
@@ -31,6 +63,7 @@ p {
     text-anchor: middle;
     margin-left: 50%;
 }
+
 
 .alert {
     color: #4e598c;
