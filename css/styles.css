@@ -1,36 +1,41 @@
-body   {
+body {
     background: #F9C784 url('../img/veronika.png') no-repeat;
-    font: 16px Arial, Helvetica, sans-serif;
+    font: 2em 'PT Sans', sans-serif;
     text-align: right;
-    color: white; 
+    color: white;
     margin: 5%;
 }
+
 .header {
-    height: 100px;
+    height: 3em;
 }
+
 h1 {
-    font: bolder 3em;
+    font: bolder 1.4em;
     text-transform: uppercase;
 }
-.list   {
-    list-style-image: url('../img/2a.png'); 
-    font-size: 3em;
+
+.list {
+    list-style-image: url('../img/2a.png');
+    font-size: 1em;
     color: #4e598c;
 }
-p  {
+
+p {
     color: white;
     font-size: 0.4em;
 }
+
 .blabla {
     width: 50%;
     text-anchor: middle;
     margin-left: 50%;
 }
-.alert  {
+
+.alert {
     color: #4e598c;
 }
-p.alert  {
+
+p.alert {
     font-size: 0.8em;
 }
-
-
